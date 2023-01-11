@@ -36,5 +36,5 @@ npm install
 npm start
 ```
 ## 功能与特性
-详见[官方文档](https://github.com/NetrisTV/ws-scrcpy/blob/master/README.md)
-注意，本分项目在[build.config.override.json](https://github.com/DiodeCN/Beauty_WS_Scrpy/blob/main/build.config.override.json)禁用了某些功能
+* 详见[官方文档](https://github.com/NetrisTV/ws-scrcpy/blob/master/README.md)
+* 注意，本分项目在[build.config.override.json](https://github.com/DiodeCN/Beauty_WS_Scrpy/blob/main/build.config.override.json)禁用了某些功能
