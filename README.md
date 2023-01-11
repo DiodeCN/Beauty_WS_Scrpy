@@ -1,6 +1,6 @@
 # Beauty_WS_Scrpy
 
-更好看且好用的 [NetrisTV/ws-scrcpy](/NetrisTV/ws-scrcpy/)
+更好看且好用的 [NetrisTV/ws-scrcpy](https://github.com/NetrisTV/ws-scrcpy)
 
 ## 要求
 
