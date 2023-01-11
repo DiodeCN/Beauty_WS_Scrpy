@@ -25,7 +25,7 @@
 [node-gyp](https://github.com/nodejs/node-gyp) and
 [build tools](https://github.com/nodejs/node-gyp#installation)
 ```shell
-git clone https://github.com/NetrisTV/ws-scrcpy.git
+git clone https://github.com/DiodeCN/Beauty_WS_Scrpy.git
 cd ws-scrcpy
 
 ## For stable version find latest tag and switch to it:
