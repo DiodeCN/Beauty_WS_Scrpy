@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <script type="text/javascript">
-        var width = document.body.clientWidth;
+        var width = window.screen.width;
 
         if (width > 1080) {
             var Scare = width / 864;
+            document.write('<meta name="viewport" content="width=device-width, initial-scale=' + Scare + ', minimum-scale=' + Scare + ', maximum-scale=' + Scare + ' /> ');
         }
         else {
-            var Scare = 0.8;
+            Scare = 0.8;
+            document.write('<meta name="viewport" content="width=device-width, initial-scale=' + Scare + ', minimum-scale=' + Scare + ', maximum-scale=' + Scare + ' /> ');
         }
-        document.write('<meta name="viewport" content="width=device-width, initial-scale=' + Scare + ', minimum-scale=' + Scare + ', maximum-scale=' + Scare + ' /> ');
+
 
 
 
