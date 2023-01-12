@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <script type="text/javascript">
-        Properties properties = new Properties();
-        InputStream in = PropertiesMain.class.getClassLoader().getResourceAsStream("config.properties");
-        properties.load(in);
-        if (properties.getProperty(Scare) > 0) {
-            var Scare = properties.getProperty(Scare);
+        if (document.body.clientWidth > 1080) {
+            var Scare = document.body.clientWidth / 864;
         }
         else {
-            var Scare = 0.8
+            var Scare = 0.8;
         }
         document.write('<meta name="viewport" content="width=device-width, initial-scale=' + Scare + ', minimum-scale=' + Scare + ', maximum-scale=' + Scare + ' /> ');
 
