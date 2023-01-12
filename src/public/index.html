@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <script type="text/javascript">
-        if (document.body.clientWidth > 1080) {
-            var Scare = document.body.clientWidth / 864;
+        var width = document.body.clientWidth
+
+        if (width > 1080) {
+            var Scare = width / 864;
         }
         else {
             var Scare = 0.8;
