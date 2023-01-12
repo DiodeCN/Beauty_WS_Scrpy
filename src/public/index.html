@@ -6,44 +6,6 @@
         var Scare = 0.8;
         document.write('<meta name="viewport" content="width=device-width, initial-scale=' + Scare + ', minimum-scale=' + Scare + ', maximum-scale=' + Scare + ' /> ');
 
-        function loadXMLDoc(docName) {
-            var http = new XMLHttpRequest();
-            http.open("GET", docName, true);
-            http.send(null);
-            var xmlDoc = http.responseXML;
-            return xmlDoc;
-        }
-        function getInfo() {
-            var xml = loadXMLDoc("./test.xml");
-            var Scare = xml.getElementsByTagName("Scare")[0].firstChild.nodeValue;
-
-        }
-        //这一段是抄的，改改变量名好用的一批
-        /*        function CreateXML() {
-                    var fso, tempfolder, xmlfile, schar;
-                    if (document.getElementById('txt1').value.length == 0) {
-                        document.getElementById("txtHint").innerHTML = "请输入条码！";
-                        return;
-                    }
-                    else {
-                        document.getElementById("txtHint").innerHTML = document.getElementById('txt1').value;
-                    }
-                    schar = "\r"
-                    fso = new ActiveXObject("Scripting.FileSystemObject");
-                    tempfolder = "E:\\temp\\";
-                    xmlfile = fso.CreateTextFile(tempfolder + "XML.XML", true);
-                    char = '\r';
-                    xmlfile.WriteLine('<?xml version="1.0" encoding="UTF-8" ?>' + schar);
-                    xmlfile.WriteLine('<document title="information">' + schar);
-                    for (var i = 0; i < 10; i++) {
-                        xmlfile.WriteLine('<xmlnode type="node' + i + '" name="' + document.getElementById('txt1').value + '">' + schar);
-                    }
-                    xmlfile.WriteLine('</document>');
-                    xmlfile.Close();
-                }
-                        //这一段也是抄的
-                        */
-
     </script>
     <title>DiodeCN'S WEB Phone</title>
 
