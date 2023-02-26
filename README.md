@@ -17,7 +17,8 @@
 * 启用 [adb debugging](https://developer.android.com/studio/command-line/adb.html#Enabling)
 * 在某些设备上，您还需要
 [启用一个附加选项](https://github.com/Genymobile/scrcpy/issues/70#issuecomment-373286323)
-来使用键盘和鼠标来控制它
+来使用键盘和鼠标来控制它 
+* 特别地，推荐安卓9.0版本的夜神模拟器，在网络中设置桥接并通过' adb connect 127.0.0.1:62001 '以连接
 
 ## 构建并开始
 
@@ -26,7 +27,7 @@
 [build tools](https://github.com/nodejs/node-gyp#installation)
 ```shell
 git clone https://github.com/DiodeCN/Beauty_WS_Scrpy.git
-cd ws-scrcpy
+cd Beauty_WS_Scrpy
 
 ## For stable version find latest tag and switch to it:
 # git tag -l
